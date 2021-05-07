@@ -9,3 +9,12 @@
 恢复数据库(登录MySQL命令行再执行)
     source 文件名.sql
 ```
+### 函数
+```
+统计函数 - count
+    count 返回行的总数
+    SELECT count(*) | count(列名) FROM table_name [WHERE where_definition]
+    count(*) 和count(列名)的区别
+        count(*)：返回满足条件的记录行数；
+        count(列名)：统计满足条件的某列有多少个，并且会排除为null的情况
+```
